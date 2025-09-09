@@ -25,7 +25,7 @@
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://wa.me/923020824146?text=Hello, I need assistance with the {{ config('app.name', 'HR System') }} system."
+                        <a href="https://wa.me/+923437753509?text=Hello, I need assistance with the {{ config('app.name', 'HR System') }} system."
                             target="_blank" class="link-success" title="WhatsApp Support">
                             <i class="ti ti-brand-whatsapp me-1"></i>
                             WhatsApp

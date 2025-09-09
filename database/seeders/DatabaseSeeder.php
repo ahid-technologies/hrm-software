@@ -22,9 +22,11 @@ class DatabaseSeeder extends Seeder
             'password' => bcrypt('ahidtech')
         ]);
 
-        $this->call([
-            HRSeeder::class,
-            WorkCheckSeeder::class
-        ]);
+        if (app()->environment('local')) {
+            $this->call([
+                HRSeeder::class,
+                WorkCheckSeeder::class
+            ]);
+        }
     }
 }

@@ -60,10 +60,10 @@
                             </div>
                             <div class="small text-muted">
                                 <i class="ti ti-phone text-secondary me-1"></i>
-                                <a href="tel:+923020824146" class="text-decoration-none text-muted me-2">
-                                    +92 302 0824146
+                                <a href="tel:+923437753509" class="text-decoration-none text-muted me-2">
+                                    +92 343 7753509
                                 </a>
-                                <a href="https://wa.me/923020824146" target="_blank"
+                                <a href="https://wa.me/+923437753509" target="_blank"
                                     class="text-decoration-none text-success" title="WhatsApp">
                                     <i class="ti ti-brand-whatsapp"></i>
                                 </a>

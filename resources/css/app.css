@@ -1,0 +1,11 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "@tabler/core/dist/css/tabler.min.css";
+@import "@tabler/core/dist/css/tabler-themes.css";
+@import "@tabler/icons-webfont/dist/tabler-icons.min.css";
+@import "flatpickr/dist/flatpickr.min.css";
+@import "litepicker/dist/css/litepicker.css";
+@import "nouislider/dist/nouislider.css";
+@import "tom-select/dist/css/tom-select.css";
+@import "toastr/build/toastr.min.css";
+@import "./fontsize.css";
+/* @import "./custom.css"; */

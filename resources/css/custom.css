@@ -1,0 +1,152 @@
+/* Custom spacing for toast stack */
+:root {
+    --tblr-toast-spacing: 0.3rem !important; /* Default value - adjust as needed */
+}
+
+/* Rotating animation for loading icons */
+.rotating {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+button.link-style {
+    background: none;
+    border: none;
+    color: #0054a6;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.menu-title {
+    padding: 12px 17px !important;
+    letter-spacing: 0.08em;
+    pointer-events: none;
+    cursor: default;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+    /* color: #f1f1f1; */
+}
+
+#content-area,
+#header {
+    transition: transform 0.3s ease, margin-left 0.3s ease, opacity 0.3s ease;
+}
+
+#sidebar.hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+/* When sidebar is hidden, shift content area and header */
+.sidebar-collapsed #content-area,
+.sidebar-collapsed #header {
+    margin-left: 0;
+}
+
+.form-label {
+    text-align: start;
+}
+
+:root {
+    /* --tblr-spacer-3: 1.5rem; */
+    --tblr-body-bg: #eff3f6;
+}
+
+aside .ti {
+    font-size: 20px;
+}
+
+@media (min-width: 992px) {
+    .navbar-vertical.navbar-expand-lg .navbar-brand {
+        padding: 1.2rem;
+        justify-content: start;
+    }
+}
+
+.dt-scroll-body {
+    border: none !important;
+}
+
+#datatable td,
+#datatable th {
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #ddd;
+    vertical-align: middle;
+}
+
+th {
+    background: #f6f8fb !important;
+}
+
+.btn-table-action {
+    border: none;
+    box-shadow: none;
+    padding: 0 3px;
+}
+
+#dt-length-0:hover,
+#dt-search-0:hover {
+    border-color: #aaa;
+}
+
+.dt-length {
+    text-transform: capitalize;
+}
+
+@media (max-width: 991.98px) {
+    :host,
+    :root,
+    [data-bs-theme="light"] {
+        --tblr-spacer-2: 1rem;
+        --tblr-page-padding: var(--tblr-spacer-2);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .dt-info {
+        margin-bottom: 15px;
+    }
+
+    .dt-length {
+        margin-bottom: 15px;
+        text-transform: capitalize;
+    }
+}
+
+.btn-icon {
+    border: none;
+    box-shadow: none;
+}
+
+@media (min-width: 768px) {
+    .btn-md-md {
+        padding: 0.5rem 1.25rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-expand-lg .navbar-collapse .navbar-nav .nav-link {
+        padding: 0 !important;
+    }
+}
+
+.toast-container > :not(:last-child) {
+    margin-bottom: 0.75rem !important;
+}
+
+.dt-container .row {
+    padding-bottom: 10px !important;
+}
